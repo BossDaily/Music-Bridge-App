@@ -75,11 +75,11 @@ export default function Screen() {
                 exiting={FadeOutDown}
                 className='w-11 items-center'
               >
-                <Text className='text-sm font-bold text-sky-600'>{progress}%</Text>
+                <Text className='text-sm font-bold text-primary'>{progress}%</Text>
               </Animated.View>
             </LayoutAnimationConfig>
           </View>
-          <Progress value={progress} className='h-2' indicatorClassName='bg-sky-600' />
+          <Progress value={progress} className='h-2' indicatorClassName='bg-primary' />
           <View />
           <Button
             variant='outline'
